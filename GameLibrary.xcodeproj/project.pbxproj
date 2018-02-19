@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		277726412039427F005639D3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277726402039427F005639D3 /* main.swift */; };
+		27772648203942EB005639D3 /* library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27772647203942EB005639D3 /* library.swift */; };
+		2777264A20394337005639D3 /* minemanu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777264920394337005639D3 /* minemanu.swift */; };
+		2777264C203943CF005639D3 /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777264B203943CF005639D3 /* Games.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		2777263D2039427F005639D3 /* GameLibrary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GameLibrary; sourceTree = BUILT_PRODUCTS_DIR; };
 		277726402039427F005639D3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		27772647203942EB005639D3 /* library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = library.swift; sourceTree = "<group>"; };
+		2777264920394337005639D3 /* minemanu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = minemanu.swift; sourceTree = "<group>"; };
+		2777264B203943CF005639D3 /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				277726402039427F005639D3 /* main.swift */,
+				27772647203942EB005639D3 /* library.swift */,
+				2777264920394337005639D3 /* minemanu.swift */,
+				2777264B203943CF005639D3 /* Games.swift */,
 			);
 			path = GameLibrary;
 			sourceTree = "<group>";
@@ -121,6 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				277726412039427F005639D3 /* main.swift in Sources */,
+				2777264A20394337005639D3 /* minemanu.swift in Sources */,
+				27772648203942EB005639D3 /* library.swift in Sources */,
+				2777264C203943CF005639D3 /* Games.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
